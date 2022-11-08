@@ -35,5 +35,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roie058/market.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roie058/market/issues"
+  },
+  "homepage": "https://github.com/roie058/market#readme",
+  "description": ""
 }
