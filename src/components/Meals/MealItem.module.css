@@ -1,0 +1,85 @@
+.product_card {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    justify-content:flex-end;
+    align-items: center;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    transition: scale 0.5s ease;
+  }
+
+  .sale_align{
+    justify-content: space-between;
+  }
+
+  .product_card:hover{
+    scale:1.05 ;
+  }
+
+
+  .saleCard {
+width: 25%;
+height: 80px;
+background-position: center;
+background-size: contain;
+align-self: flex-start;
+background-image: url("/public/star.png");
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+
+  }
+
+  
+  .saleCard::before{
+content: attr(data-content);
+font-weight: bold;
+color: white;
+margin-top: 35%;
+  }
+  
+.card_head{
+  margin-bottom: 20px;
+}
+
+  .card_text{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .product_card h3 {
+    text-align: center;
+    margin: 0 0 0.25rem 0;
+    font-size: 1.5rem;
+  }
+  
+  .description {
+    font-style: italic;
+  }
+  
+  .price {
+    margin-top: 0.25rem;
+    font-weight: bold;
+    color: #707070;
+    font-size: 1rem;
+    
+  }
+  .sale{
+    color: #FA7718;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .saleOn{
+    text-decoration: line-through;
+  }
+  .product_image{
+   z-index: 1;
+width: 300px;
+  }
