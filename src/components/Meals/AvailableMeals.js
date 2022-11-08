@@ -109,6 +109,8 @@ const AvailableMeals = (props) => {
           image={meal.image}
         />
       );
+    } else {
+      return <div></div>;
     }
   });
 
